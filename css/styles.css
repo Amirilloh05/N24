@@ -25,8 +25,8 @@ img {
 
 /* OUTLINE-STYLES */
 *:focus{
-outline: 2px dashed #7296EC;
-outline-offset: 3px;
+  outline: 2px dashed #7296EC;
+  outline-offset: 3px;
 
 }
 
@@ -69,8 +69,10 @@ outline-offset: 3px;
 
 /* SITE-HEADER-TOP */
 .site-header-top {
+
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 10px;
   background: #F6F6F6;
 }
 .site-header-top-container {
@@ -164,8 +166,46 @@ outline-offset: 3px;
   background-color: #fff;
   color: #000;
 }
-.button {
-
+/* SITANAV */
+.sitenav {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #D1D1D1;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
 }
-.button-primary {
+.sitenav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sitenav-item {
+margin-top: 4px;
+margin-bottom: 4px;
+}
+
+.sitenav-item:not(:last-child) {
+ margin-right: 34px;
+}
+.sitanav-link {
+  display: block;
+  color: #7F7F7F;
+  text-decoration: none;
+}
+.sitanav-link:hover {
+color: #7296EC;
+}
+
+.sitanav-link:active {
+opacity: 0.6;
+}
+/* SITE-HEADER-BANNER */
+
+.site-header-banner-link{
+display: flex;
 }
